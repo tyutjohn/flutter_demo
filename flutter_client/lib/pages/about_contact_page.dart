@@ -23,7 +23,7 @@ class AboutUsPageState extends State<AboutContactPage>{
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('给我留言'),
+        title: Text('联系我们'),
       ),
       body: Container(
         color: Colors.white,
@@ -58,7 +58,7 @@ class AboutUsPageState extends State<AboutContactPage>{
               height: 48.0,
               child: RaisedButton(
                 child: Text('给我们留言',style: TextStyle(fontSize: 16.0),),
-                color: Theme.of(context).primaryColor,
+                color: Colors.redAccent,
                 colorBrightness: Brightness.dark,
                 textColor: Colors.white,
                 padding: EdgeInsets.only(
