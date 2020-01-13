@@ -23,7 +23,7 @@ class AboutUsPageState extends State<AboutUsPage>{
               ),
             ListTile(
               leading: Icon(Icons.message),
-              title: Text('公司介绍'),
+              title: Text('获得支持'),
               onTap: (){
                 Navigator.of(context).pushReplacementNamed('company_info');
               },
@@ -34,7 +34,7 @@ class AboutUsPageState extends State<AboutUsPage>{
             ),
             ListTile(
               leading: Icon(Icons.info),
-              title: Text('公司优势'),
+              title: Text('服务与维修'),
             ),
             Divider(
               height: 10.0,
@@ -42,7 +42,7 @@ class AboutUsPageState extends State<AboutUsPage>{
             ),
             ListTile(
               leading: Icon(Icons.phone),
-              title: Text('联系我们'),
+              title: Text('Connect'),
               onTap: (){
                 Navigator.push(context,MaterialPageRoute(builder: (context)=>AboutContactPage()));
               },
